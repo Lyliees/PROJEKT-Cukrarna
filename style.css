@@ -1,7 +1,12 @@
 /* intuitivnější box-sizing pro všechny prvky na stránce */
-html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
-
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
 
 /*
 	Poznámky:
@@ -28,156 +33,147 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-
 body {
-	font-size: 18px;
-	line-height: 1.5;
-	margin: 0 auto;
-	font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 auto;
+  font-family: "Lora", serif;
 }
 
 header {
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding-left: 100px;
-	padding-right: 100px;
-	
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .kontejner {
-	display: flex;
-	
+  display: flex;
 }
 
 .logo {
-	display: flex;
-	width: 170px;
-    flex: 0;
-	justify-content: flex-start;
+  display: flex;
+  width: 170px;
+  flex: 0;
+  justify-content: flex-start;
 }
 
 .menu {
-	display: flex;
-	list-style: none;
-	padding: 10px 15px;
-	flex: 1;
-	justify-content: flex-end;
-	gap: 40px;
-	margin-right: 100px;
-	
+  display: flex;
+  list-style: none;
+  padding: 10px 15px;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-right: 100px;
 }
 
 a {
-	text-decoration: none;
-	color: black;
-
+  text-decoration: none;
+  color: black;
 }
 
 .hero {
-	background-image: url(images/cupcake.jpg);
-	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: center center;
-	color: white;
-	padding-right: 650px;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-left: auto;
-	margin-right: auto;
-	
+  background-image: url(images/cupcake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding-right: 650px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-	font-size: 52px;
+  font-size: 52px;
 }
 
 h2 {
-	font-family: 'Playfair Display', serif;
-	font-size: 36px;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
 }
 
 h3 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .nabidka {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .obsah-sekce {
-	flex: 1 0 100%;
+  flex: 1 0 100%;
 }
 
 .produkt {
-	border-radius: 5px;
-    box-shadow: grey 1px 1px 5px;
-	max-width: 22%;
-
+  border-radius: 5px;
+  box-shadow: grey 1px 1px 5px;
+  max-width: 22%;
 }
 
 .produkt img {
-	max-width: 100%;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
+  max-width: 100%;
+  }
 
 .produkt-obsah {
-    margin: 20px;
-    text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .prvniposledni,
-.sekce-seda
- 			{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 80px;
-	margin-bottom: 80px;
-	max-width: 1100px;
-
+.sekce-seda {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 1100px;
 }
 
 .sekce-seda {
-	background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 footer {
-	background-color:#303339;
-	text-align: center;
-    padding: 30px;
-	color: white;
+  background-color: #303339;
+  text-align: center;
+  padding: 30px;
+  color: white;
 }
 
 a:hover {
-	background-color: #f195b2;
-	color: white;
-	padding: 10px 15px;
-	border-radius: 20px;
-  }
+  background-color: #f195b2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
 
 .tlacitko {
-	background-color: #f195b2;
-	color: white;
-	padding: 10px 15px;
-	border-radius: 20px;
-	}
+  background-color: #f195b2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
 .tlacitka {
-	margin-top: 60px;
+  margin-top: 60px;
 }
 
 .tlacitko:hover {
-	background-color: #d2567d;
-	color: white;
+  background-color: #d2567d;
+  color: white;
 }
 
 .prvniposledni {
-	display: flex;
+  display: flex;
+  column-gap: 30px;
 }
 
-.sloupec{
-	flex: 1 0 50%;
-	margin: 30px;
+.sloupec {
+  flex: 1 0 50%;
 }
 
+img {
+  border-radius: 5px;
+}
